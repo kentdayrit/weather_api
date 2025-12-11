@@ -34,12 +34,12 @@ Includes caching, API resource responses, and unit/feature tests.
 
     php artisan key:generate
 
-5. **Set up the OpenWeather API key:**
+5. **Set up the OpenWeather API key**
 
-    - Register for a free API key at OpenWeatherMap
+- Register for a free API key at [OpenWeatherMap](https://openweathermap.org/api).  
+- Add the key to your `.env` file:
 
-    - Add the key to your .env file:
-        OPENWEATHER_KEY=your_api_key_here
+OPENWEATHER_KEY=your_api_key_here
 
 6. **Configure services.php (optional):**
 
